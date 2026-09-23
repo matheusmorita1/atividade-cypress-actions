@@ -1,0 +1,20 @@
+{
+  "name": "atividade-cypress-actions",
+  "version": "1.0.0",
+  "description": "Teste E2E com Cypress na página Actions do Cypress Example, executado diariamente via GitHub Actions",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^16.1.0"
+  }
+}
